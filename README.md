@@ -1,6 +1,6 @@
 # CyberChallenge 2020 - ROP & ret2libc
 
-[Video lezione](https://www.youtube.com/watch?v=mUOWsuLE_lI&t=2860s)
+[Video lezione](https://www.youtube.com/watch?v=mUOWsuLE_lI)
 
 ## Istruzioni
 
