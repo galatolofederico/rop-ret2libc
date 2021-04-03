@@ -1,4 +1,7 @@
 /.vscode
 /env
 /rop1/rop
+/rop1/libc-docker.so
+
 /rop2/rop
+/rop2/libc-docker.so
