@@ -1,4 +1,4 @@
-# CyberChallenge 2020 - ROP & ret2libc
+# CyberChallenge - ROP & ret2libc
 
 [Video lezione](https://www.youtube.com/watch?v=mUOWsuLE_lI)
 
@@ -7,7 +7,7 @@
 Clonare il repo:
 
 ```
-git clone https://github.com/galatolofederico/CC20-rop-ret2libc.git && cd CC20-rop-ret2libc
+git clone https://github.com/galatolofederico/rop-ret2libc.git && cd rop-ret2libc
 ```
 
 Creare e attivare il virtualenv
