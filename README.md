@@ -33,9 +33,10 @@ make <target>
 
 Questi sono i target disponibili
 
-| target |       Significato      |
-|:------:|:----------------------:|
-| binary |     Compila binario    |
-|  clean |    Cancella binario    |
-| docker |    Builda container    |
-| remote | Avvia server in docker |
+|    target    |         Significato       | 
+|:------------:|:-------------------------:|
+|    binary    |       Compila binario     |
+|    clean     |      Cancella binario     |
+|    docker    |      Builda container     |
+|    remote    |   Avvia server in docker  |
+| extract-libc | Estrae libc dal container |
