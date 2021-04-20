@@ -17,7 +17,7 @@ paramiko==2.7.1
 pluggy==0.13.1
 psutil==5.7.0
 pwntools==4.0.1
-py==1.8.1
+py==1.10.0
 pycparser==2.20
 pyelftools==0.26
 Pygments==2.6.1
