@@ -12,7 +12,7 @@ binary:
 clean:
 	rm rop
 
-docker: binary
+docker:
 	docker build -t rop2 .
 
 remote: docker

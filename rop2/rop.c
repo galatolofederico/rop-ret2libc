@@ -2,10 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-void pop_rdi_ret(){
-    __asm__("pop %rdi\nret");
-}
-
 int aiuto(int aiuti, char* frase){
     int pos;
     
