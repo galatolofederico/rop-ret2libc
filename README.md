@@ -1,6 +1,6 @@
 # CyberChallenge - ROP & ret2libc
 
-[Video lezione](https://www.youtube.com/watch?v=mUOWsuLE_lI)
+[Video lezione 2020](https://www.youtube.com/watch?v=mUOWsuLE_lI)
 
 ## Istruzioni
 
@@ -24,8 +24,14 @@ pip install -r requirements.txt
 
 ## Esercizi
 
-Ogni esercizio ha un `Makefile` da usare:
+Prima di compilare i binari creare il docker container con gcc (necessario per avere tutti gli stessi binari)
 
+```
+cd compiler
+make
+```
+
+Ogni esercizio ha un `Makefile` da usare:
 
 ```
 make <target>
