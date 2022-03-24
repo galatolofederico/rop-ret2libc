@@ -1,5 +1,13 @@
+CC=gcc
+CFLAGS=
+CONTAINER=rop-compiler:latest
+
 binary:
-	gcc rop.c -g -o rop
+	$(eval CONTAINER_ID := $(shell docker run -d --rm $(CONTAINER) tail -f /dev/null))
+	docker cp ./rop.c $(CONTAINER_ID):/tmp/rop.c
+	docker exec -it $(CONTAINER_ID) $(CC) $(CFLAGS) /tmp/rop.c -o /tmp/rop
+	docker cp $(CONTAINER_ID):/tmp/rop ./rop
+	docker stop $(CONTAINER_ID)
 
 clean:
 	rm rop
