@@ -1,5 +1,3 @@
-// gcc rop.c -o rop -fno-stack-protector
-
 #include <stdlib.h>
 #include <stdio.h>
 
