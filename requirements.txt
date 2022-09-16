@@ -10,7 +10,7 @@ filebytes==0.10.2
 filelock==3.0.12
 idna==2.9
 intervaltree==3.0.2
-Mako==1.1.2
+Mako==1.2.2
 MarkupSafe==1.1.1
 packaging==20.3
 paramiko==2.7.1
